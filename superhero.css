@@ -1,0 +1,38 @@
+body{
+    margin: 40px; 
+    text-align: center;
+    background-color: #B1E4ED;
+}
+.container{
+    height:500px;
+    width:900px; 
+    background-color: gold;
+}
+/* from chatgpt */
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .superhero-details {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar on top -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <a href = "favorite.html">
+        <button class="btn btn-dark" type="button">Favorite</button></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Body below navbar, click on search and move to superhero.html -->
+  <center>
+    <h1 class="color">Superhero Hunter App</h1>
+  </center>
+  <br>
+  <form id="searchForm" action="superhero.html">
+    <div class="dropdown">
+      <input type="text" id="searchInput" class="form-control" placeholder="Enter Superhero name..." data-bs-toggle="dropdown" aria-expanded="false" autocomplete="off" />
+      <ul id="dropdownOptions" class="dropdown-menu"></ul>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

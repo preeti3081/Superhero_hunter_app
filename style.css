@@ -1,0 +1,82 @@
+/* home page styles */
+body {
+    background-image: url('superhero.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  .color {
+    color: red;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  #searchInput {
+    width: 500px;
+  }
+  
+  input:hover {
+    box-shadow: 0 0 20px 6px red;
+  }
+  
+  /* button {
+    background-color: red;
+    color: white;
+  }
+   */
+
+
+
+  .dropdown-image-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .dropdown-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block; 
+    
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    max-height: 400px; /* Set the maximum height you desire */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between; 
+    text-align: left;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+  }
+  

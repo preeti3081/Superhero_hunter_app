@@ -1,0 +1,9 @@
+body{
+    background-color: #B1E4ED;
+    margin: 30px;
+}
+.class{
+    display: flex;
+    justify-content: space-between;
+    
+}
